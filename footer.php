@@ -38,11 +38,8 @@
 				<strong>Notices:</strong> <span class="fold"><a href="/privacy-policy">Privacy Policy</a></span>
 			</div>
 			<div class="electronic">
-				<a href="http://www.facebook.com/ripon.college"><img src="<?php bloginfo('template_url') ?>/img/social-facebook.png"></a>
-				<a href="https://www.flickr.com/photos/ripon_college/"><img src="<?php bloginfo('template_url') ?>/img/social-flickr.png"></a>
-				<a href="http://www.linkedin.com/groups?home=&gid=4646327&trk=anet_ug_hm"><img src="<?php bloginfo('template_url') ?>/img/social-linkedin.png"></a>
-				<a href="https://twitter.com/riponcollege"><img src="<?php bloginfo('template_url') ?>/img/social-twitter.png"></a>
-				<a href="http://www.youtube.com/riponcollegevideo"><img src="<?php bloginfo('template_url') ?>/img/social-youtube.png"></a>
+				<a href="https://www.facebook.com/RCConferenceServices/"><img src="<?php bloginfo('template_url') ?>/img/social-facebook.png"></a>
+				<a href="https://www.pinterest.com/s_conferences/"><img src="<?php bloginfo('template_url') ?>/img/social-pinterest.png"></a>
 				<a href="https://www.instagram.com/rcconferences/"><img src="<?php bloginfo('template_url') ?>/img/social-instagram.png"></a>
 			</div>
 
