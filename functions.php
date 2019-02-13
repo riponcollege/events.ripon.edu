@@ -6,11 +6,11 @@ define( "CMB_PREFIX", "_p_" );
 
 
 // include the faculty content type
-include( "library/post-type/area.php" );
-include( "library/post-type/faculty.php" );
-include( "library/post-type/fund.php" );
-include( "library/post-type/alum.php" );
-include( "library/post-type/year.php" );
+// include( "library/post-type/area.php" );
+// include( "library/post-type/faculty.php" );
+// include( "library/post-type/fund.php" );
+// include( "library/post-type/alum.php" );
+// include( "library/post-type/year.php" );
 
 
 // include some theme-related things
