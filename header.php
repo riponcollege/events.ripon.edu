@@ -77,25 +77,24 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 		<button class="menu-toggle">show/hide menu</button>
 		<div class="main-menus">
-			<?php wp_nav_menu( array( 'theme_location' => 'main-menu', 'menu_class' => 'nav-menu' ) ); ?>
-			<?php footer_menu_display(); ?>
-		</div>
+			<div class="aux-menu">
+				<a href="/book-now" class="button-booking">Book Now</a>
+			<?php 	
+			// grab the menu the user selected in the menus metabox.
+			$menu_name = get_post_meta( get_the_ID(), CMB_PREFIX . "menu_footer", 1 );
 
-		<nav class="nav-links nav-icon">
-			<span class="handle"></span>
-			<?php wp_nav_menu( array( 'theme_location' => 'links', 'menu_class' => 'nav-menu' ) ); ?>
-		</nav>
+			// verify that the menu exists by checking the menu name to see if it's empty
+			if ( empty( $menu_name ) ) {
+				$menu_name = 3;
+			}
 
-		<nav class="nav-constituent nav-icon">
-			<span class="handle"></span>
-			<?php wp_nav_menu( array( 'theme_location' => 'constituent', 'menu_class' => 'nav-menu' ) ); ?>
-		</nav>
-		
-		<a href="/events" class="calendar">Events</a>
-
-		<a class="search-toggle"><i class="fa fa-lg fa-search"></i></a>
-		<div class="search">
-			<?php get_search_form(); ?>
+			// display the menu
+			wp_nav_menu( array( 
+				'menu' => 'main-menu', 
+				'menu_class' => 'nav-menu' )
+			);
+			?>
+			</div>
 		</div>
 
 		<div class="translate">
