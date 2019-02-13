@@ -9,7 +9,7 @@ get_header();
 	<?php the_showcase(); ?>
 
 	<main class="content-wide">
-
+		<div class="wrap">
 		<?php 
 		while ( have_posts() ) : the_post(); ?>
 		
@@ -20,7 +20,7 @@ get_header();
 			<?php
 		endwhile; 
 		?>
-
+		</div>
 	</main><!-- #primary -->
 
 <?php
