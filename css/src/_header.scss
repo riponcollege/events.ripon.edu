@@ -215,7 +215,7 @@ header {
 				li {		
 					a {
 						text-transform: uppercase;
-						opacity: .7;
+						opacity: .9;
 						font-weight: 600;
 						
 						@include respond-to( 1040px ) { 
