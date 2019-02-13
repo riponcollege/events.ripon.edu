@@ -14,15 +14,15 @@ header {
 	
 	.logo {
 		text-align: center;
-		padding: 10px 0 30px;
+		padding: 20px 0 30px;
 
 		@include respond-to( 600px ) {
-			padding: 10px 0;
+			padding: 15px 0;
 		}
 
 		@include respond-to( $menu-breakpoint ) {
 			text-align: left;
-			padding: 15px 0 0 15px;
+			padding: 15px 0 10 15px;
 		}
 	}
 
@@ -208,7 +208,7 @@ header {
 				position: absolute;
 				right: 0;
 				left: 35%;
-				top: -50px;
+				top: -70px;
 			}
 
 			ul {
@@ -245,7 +245,7 @@ header {
 			}
 
 			.button-booking {
-				border: 2px solid $red-light;
+				border: 3px solid darken( $red-dark, 5% );
 				padding: 7px 20px;
 				text-transform: uppercase;
 				@include font-bold;
@@ -254,9 +254,12 @@ header {
 				line-height: 17px;
 				float: right;
 				margin-left: 15px;
-				background: rgba( white, .7 );
+				background: rgba( white, .9 );
+				color: darken( $red-dark, 5% );
+				transition: background 400ms ease-in-out;
 
 				&:hover {
+					color: $red-dark;
 					background: rgba( white, 1 );
 				}
 			}
