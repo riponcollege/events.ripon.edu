@@ -425,7 +425,7 @@ function page_metaboxes( $meta_boxes ) {
         );
     }
 
-
+/*
     // fund listing metabox
     $fund_categories = get_fund_categories();
     foreach ( $fund_categories as $fundcat ) {
@@ -448,7 +448,7 @@ function page_metaboxes( $meta_boxes ) {
             ),
         )
     );
-
+*/
 
 
     // infographic metabox
