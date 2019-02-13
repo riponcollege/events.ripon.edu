@@ -8,7 +8,7 @@ get_header();
 
 	<?php the_showcase(); ?>
 
-	<main class="content-narrow">
+	<main class="content-wide">
 
 		<?php 
 		while ( have_posts() ) : the_post(); ?>
