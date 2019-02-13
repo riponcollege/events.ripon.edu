@@ -245,7 +245,7 @@ header {
 			}
 
 			.button-booking {
-				border: 3px solid darken( $red-dark, 5% );
+				border: 3px solid rgba( white, .7 );
 				padding: 7px 20px;
 				text-transform: uppercase;
 				@include font-bold;
@@ -254,13 +254,14 @@ header {
 				line-height: 17px;
 				float: right;
 				margin-left: 15px;
-				background: rgba( white, .9 );
-				color: darken( $red-dark, 5% );
-				transition: background 400ms ease-in-out;
+				background:  $red-dark;
+				color: rgba( white, .7 );
+				transition: background 400ms ease-in-out, border 400ms ease-in-out, color 400ms ease-in-out;
 
 				&:hover {
-					color: $red-dark;
-					background: rgba( white, 1 );
+					color: rgba( white, .95 );
+					background: darken( $red-dark, 5% );
+					border: 3px solid rgba( white, .95 );
 				}
 			}
 		}
