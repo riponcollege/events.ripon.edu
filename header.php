@@ -78,7 +78,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 		<button class="menu-toggle">show/hide menu</button>
 		<div class="main-menus">
 			<div class="aux-menu">
-				<a href="/book-now" class="button-booking">Book Now</a>
+				<a href="/event-inquiries" class="button-booking">Book Now</a>
 			<?php 	
 			// grab the menu the user selected in the menus metabox.
 			$menu_name = get_post_meta( get_the_ID(), CMB_PREFIX . "menu_footer", 1 );
@@ -96,16 +96,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 			?>
 			</div>
 		</div>
-
-		<div class="translate">
-			<div id="google_translate_element"></div><script type="text/javascript">
-			function googleTranslateElementInit() {
-			  new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, gaTrack: true, gaId: 'UA-37190446-2'}, 'google_translate_element');
-			}
-			</script>
-			<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-		</div>
-
+	
 	</div>
 
 </header>

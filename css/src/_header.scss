@@ -254,6 +254,11 @@ header {
 				line-height: 17px;
 				float: right;
 				margin-left: 15px;
+				background: rgba( white, .7 );
+
+				&:hover {
+					background: rgba( white, 1 );
+				}
 			}
 		}
   	}
