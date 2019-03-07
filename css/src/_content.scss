@@ -168,12 +168,11 @@
 
 
 a.button {
-	background: $grey-light url(../img/more-arrow.png) right center no-repeat;
-	border: 0;
-	border-right: 5px solid $grey-light;
-	color: $grey;
-	padding: 8px 40px 8px 8px;
-	font-size: 12px;
+	background: transparent;
+	border: 1px solid $red-dark;
+	color: $red-dark;
+	padding: 8px 20px;
+	font-size: 14px;
 	text-transform: uppercase;
 	font-weight: bold;
 	text-decoration: none;
