@@ -2,7 +2,7 @@
 
 @mixin widget-before {
 	display: block;
-	content: "\f02d";
+	content: $fa-var-university;
 	font-family: "FontAwesome";
 	font-size: 22px;
 	line-height: 40px;
