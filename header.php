@@ -40,29 +40,19 @@ src="https://www.facebook.com/tr?id=737054459766387&ev=PageView
 </noscript>
 <!-- End Facebook Pixel Code -->
 
-<!-- Start Google Analytics Universal Tracking Code -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-37190446-2"></script>
-<script>
-window.dataLayer = window.dataLayer || [];
-function gtag(){dataLayer.push(arguments);}
-gtag('js', new Date());
-gtag('require', 'GTM-WT6LM9H');
-gtag('config', 'UA-37190446-2');
-</script>
-<!-- End Analytics Code -->
-
 <!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+<script
+>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-5Q9X26');</script>
+})(window,document,'script','dataLayer','GTM-5LJ7X4B');</script>
 <!-- End Google Tag Manager -->
 
 </head>
 <body <?php body_class(); ?>>
 <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5Q9X26"
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5LJ7X4B"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 <header>
