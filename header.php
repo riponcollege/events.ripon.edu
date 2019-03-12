@@ -3,6 +3,7 @@
 <!--[if IE 8]><html class="ie ie8" <?php language_attributes(); ?>><![endif]-->
 <!--[if !(IE 7) | !(IE 8)  ]><!--><html <?php language_attributes(); ?>><!--<![endif]-->
 <head>
+	<meta name="google-site-verification" content="doR_WBYOA2Pk9RUcQApNpunbwH9V27FzukKp2r3p4vU" />
 <meta charset="<?php bloginfo( 'charset' ); ?>" />
 <meta name="viewport" content="width=device-width,initial-scale=1" />
 
