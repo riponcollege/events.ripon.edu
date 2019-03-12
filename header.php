@@ -49,6 +49,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 })(window,document,'script','dataLayer','GTM-5LJ7X4B');</script>
 <!-- End Google Tag Manager -->
 
+<meta name="google-site-verification" content="doR_WBYOA2Pk9RUcQApNpunbwH9V27FzukKp2r3p4vU" /> 
+
 </head>
 <body <?php body_class(); ?>>
 <!-- Google Tag Manager (noscript) -->
