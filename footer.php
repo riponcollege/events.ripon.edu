@@ -38,7 +38,7 @@
 				<strong>Notices:</strong> <span class="fold"><a href="/privacy-policy">Privacy Policy</a></span>
 			</div>
 			<div class="electronic">
-				<a href="https://www.facebook.com/RCConferenceServices/"><img src="<?php bloginfo('template_url') ?>/img/social-facebook.png"></a>
+				<a href="https://www.facebook.com/RCConferences/"><img src="<?php bloginfo('template_url') ?>/img/social-facebook.png"></a>
 				<a href="https://www.pinterest.com/s_conferences/"><img src="<?php bloginfo('template_url') ?>/img/social-pinterest.png"></a>
 				<a href="https://www.instagram.com/rcconferences/"><img src="<?php bloginfo('template_url') ?>/img/social-instagram.png"></a>
 			</div>
