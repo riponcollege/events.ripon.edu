@@ -210,14 +210,55 @@ button, input[type=submit], input[type=reset], .btn {
   font-family: "Open Sans", sans-serif;
   font-weight: 800;
   font-size: 1em;
-  color: #b30838;
+  color: $red-dark;
   text-decoration: none;
   background: white;
-  border: 1px solid #b30838;
+  border: 1px solid $red-dark;
   text-transform: uppercase;
-  -webkit-box-shadow: 0 0 20px rgba(37, 37, 42, 0.3);
-  box-shadow: 0 0 10px rgba(37, 37, 42, 0.2);
   cursor: pointer;
+  display: inline-block;
+  margin-bottom: 4px;
+
+  &:hover {
+    color: $red-dark;
+    opacity: .8;
+  }
+
+  &.teal {
+    background-color: $teal;
+    color: white;
+    border-color: $teal;
+  }
+
+  &.red-dark {
+    background-color: $red-dark;
+    color: white;
+    border-color: $red-dark;
+  }
+
+  &.red-light {
+    background-color: $red-light;
+    color: white;
+    border-color: $red-light;
+  }
+
+  &.blue {
+    background-color: $blue;
+    color: white;
+    border-color: $blue;
+  }
+
+  &.orange {
+    background-color: $orange;
+    color: black;
+    border-color: $orange;
+  }
+
+  &.grey {
+    background-color: $grey;
+    color: white;
+    border-color: $grey;
+  }
 }
 
 
