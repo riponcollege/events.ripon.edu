@@ -17,6 +17,7 @@ define( "CMB_PREFIX", "_p_" );
 include( "library/menus.php" );
 include( "library/widgets.php" );
 include( "library/scripts.php" );
+include( "library/buttons.php" );
 
 
 // an extra image manipulation function
