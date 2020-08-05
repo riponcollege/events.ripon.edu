@@ -6,6 +6,8 @@ get_header();
 
 ?>
 
+	<?php the_emergency_bar(); ?>
+
 	<?php the_showcase(); ?>
 
 	<main class="content-wide">
